@@ -1,0 +1,70 @@
+body{
+    background-image: url("Tło.jpg");
+    margin: 50px;
+    margin-bottom: 50px;
+}
+
+.gaz_form, .gaz_form *{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.gaz_form {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.Content{
+    background: #E7FCFF;
+    padding: 30px;
+
+
+}
+.header{
+    margin-bottom: 25px;
+    text-align: center;
+    color: #444444;
+    font-family: "Times New Roman";
+    font-size: 30px;
+}
+.input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+.input:focus{
+    border-color: cornflowerblue;
+}
+.gaz_form::placeholder{
+    color: #aaaaaa
+}
+
+.submit{
+    padding: 10px;
+    width: 100%;
+    color: #ffffff;
+    outline: none;
+    font-weight: bold;
+    background: #00A1F1;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+.submit:active{
+    background: #5d89d9;
+}
+.res{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Open Sans";
+
+}
+

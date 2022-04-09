@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Przelicznik rachunków</title>
+    <link rel="stylesheet" href="Farba.css">
+    <script src="Skrypt.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<form id = "gf" class="gaz_form" onsubmit="return gaz()">
+    <div class="Content">
+        <div class="header">Przelicznik Rachunków Za Wodę</div>
+        <hr>
+        <input class="input" type="text" name="liczbaos" id="lo" placeholder="Liczba Osób Korzystających Z wody" value="">
+        <input class="input" type="text" name="czasmycia" id ="showert" placeholder="Czas Mycia Się Każdej Osoby">
+        <input class="input" type="text" name="zmywarki" id ="zmyd" placeholder="Zmywarki dziennie">
+        <input class="input" type="text" name="pralki" id ="prad" placeholder="Pralki Dziennie">
+
+        <input class="submit" type="submit"></input>
+        <div id="sp" class="res"></div>
+        <div id="sp2" class="res"></div>
+        <div id="sp3" class="res"></div>
+        <div id="sp4" class="res"></div>
+
+
+    </div>
+
+</form>
+
+</body>
+</html>
