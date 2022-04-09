@@ -14,13 +14,13 @@ function gaz(){
 
 
 
-    var div = document.getElementById('dv');
-    div.innerHTML += "<div class = 'res'>" + res + "</div>";
+   // var div = document.getElementById('dv');
+    //div.innerHTML += "<div class = 'res'>" + res + "</div>";
 
-   // $("#sp").text("Dziennie: " + resd);
-   // $("#sp2").text("Tygodniowo: " + rest);
-  //  $("#sp3").text("Miesięcznie: " + resm);
-  //  $("#sp4").text("Rocznie: " + resr);
+    $("#sp").text("Dziennie: " + resd);
+    $("#sp2").text("Tygodniowo: " + rest);
+    $("#sp3").text("Miesięcznie: " + resm);
+    $("#sp4").text("Rocznie: " + resr);
     return false;
 
 }
