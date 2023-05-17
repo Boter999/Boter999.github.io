@@ -11,7 +11,14 @@ function gaz(){
     let rest = Math.round((kubik * 10) * 7).toString() + " Zł"
     let resm = Math.round((kubik * 10) * 30).toString() + " Zł"
     let resr = Math.round((kubik * 10) * 365).toString() + " Zł"
-
+    if(Math.round((kubik * 10) * 30) > 200)
+    {
+        $("#odp").text("Zużywasz dużo wody! Staraj się zaoszczędzić więcej wody.");
+    }
+    else
+    {
+        $("#odp").text("Brawo! Najpewniej starasz się zaoszczędzić wodę");
+    }
 
 
    // var div = document.getElementById('dv');
